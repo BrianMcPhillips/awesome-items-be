@@ -7,6 +7,7 @@ module.exports = [
     brand: 'Genelec',
     model: '8010A',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXvdxydVBGi8bDW0dDSMxDEfiaYXF49Au1SG4kfNmYTdbayh3NRcJnisqicjctk3bdj0W9qdg&usqp=CAc',
+    brands_id: 1,
   },
   {
     cool_factor: 8,
@@ -15,6 +16,7 @@ module.exports = [
     brand: 'Genelec',
     model: '8020D',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRdMkeQDWLC2_kfK4kf3M6K3fZDDAFauMaloTRPK1NDnPXTcbEcYgXJq5Xudnu84lHY6y2z1SA&usqp=CAc',
+    brands_id: 1,
   },
   {
     cool_factor: 10,
@@ -23,6 +25,7 @@ module.exports = [
     brand: 'Genelec',
     model: '8040B',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqrOdTrg7ARO86E__AheIK0JBmYjWwg52f-s7evrAwPi9LBXI0ix-GnlIlCHVM7FVrpFayzUkX&usqp=CAc',
+    brands_id: 1,
   },
   {
     cool_factor: 9,
@@ -31,6 +34,7 @@ module.exports = [
     brand: 'ADAM Audio',
     model: 'A7X',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkYa4PhQG4xHoDsTnp_b3JbPmzu1nUPzsgLwDsZG-XZTSkSl6cNn2GrUdeaV3IvbFAuKwRobC3&usqp=CAc',
+    brands_id: 2,
   },
   {
     cool_factor: 4,
@@ -39,6 +43,7 @@ module.exports = [
     brand: 'ADAM Audio',
     model: 'T8V',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQMWuooM4tiltjbA9946IEAU9rMqcOBlwH93z6-hDflnngiK-OvSRhBJ7jK8vMKeBBdnqzOyJk8&usqp=CAc',
+    brands_id: 2,
   },
   {
     cool_factor: 6,
@@ -47,6 +52,7 @@ module.exports = [
     brand: 'ADAM Audio',
     model: 'A3X',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTynE5wyyO3mSRCEBk8Aa-HaSBNNrdNasrTWkYtcvc49pQBYSZwXSw8npSNfLE&usqp=CAc',
+    brands_id: 2,
   },
 
 ];
