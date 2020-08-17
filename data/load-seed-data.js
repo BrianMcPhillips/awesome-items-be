@@ -37,10 +37,10 @@ async function run() {
     await Promise.all(
       monitors.map(monitor => {
         return client.query(`
-                    INSERT INTO monitors (cool_factor, type, is_sick, brand, model, image, owner_id, brands_id)
-                    VALUES ($1, $2, $3, $4, $5, $6, $7, $8);
+                    INSERT INTO monitors (cool_factor, type, is_sick, model, image, owner_id, brands_id)
+                    VALUES ($1, $2, $3, $4, $5, $6, $7);
                 `,
-        [monitor.cool_factor, monitor.type, monitor.is_sick, monitor.brand, monitor.model, monitor.image, user.id, monitor.brands_id]);
+        [monitor.cool_factor, monitor.type, monitor.is_sick, monitor.model, monitor.image, user.id, monitor.brands_id]);
       })
     );
     

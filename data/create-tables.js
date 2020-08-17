@@ -26,7 +26,6 @@ async function run() {
                     cool_factor INTEGER NOT NULL,
                     type VARCHAR(512) NOT NULL,
                     is_sick BOOLEAN NOT NULL,
-                    brand VARCHAR(512) NOT NULL,
                     model VARCHAR(512) NOT NULL,
                     image VARCHAR(512) NOT NULL,
                     owner_id INTEGER NOT NULL REFERENCES users(id),
