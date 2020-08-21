@@ -1,6 +1,9 @@
 
 module.exports = [
   {
+    name: 'Please choose a brand'
+  },
+  {
     name: 'Genelec'
   },
   {
